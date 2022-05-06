@@ -12,7 +12,7 @@ function Contact() {
         </div>
         <div class="flex justify-center items-center mb-5">
             <img className="ml-4" src={mail} alt="mail"/>
-            <button action="mailto: georgeoluolufemi@gmail.com" method="post" className="text-white text-center font-semibold text-xl bg-blue-600 px-6 py-2 rounded-xl hover:scale-110 ml-4 transition-all hover:bg-blue-500">Mail me</button>
+            <a href="mailto: georgeoluolufemi@gmail.com" method="post" className="text-white text-center font-semibold text-xl bg-blue-600 px-6 py-2 rounded-xl hover:scale-110 ml-4 transition-all hover:bg-blue-500">Mail me</a>
         </div>
     </div>
   )

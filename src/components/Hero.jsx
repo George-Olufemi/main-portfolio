@@ -34,10 +34,10 @@ function Hero() {
                 </div>
                 <div className="flex mt-16 md:mt-16 ml-10 md:ml-28">
                     <Fade left>
-                        <img className="mr-8 px-3 py-3 rounded-2xl hover:bg-blue-100 hover:transition-all hover:scale-125 transition-all border-2 border-blue-200"src={assets} alt="linkedin" />
+                        <a href="https://www.linkedin.com/in/george-olufemi-325655226"><img  className="mr-8 px-3 py-3 rounded-2xl hover:bg-blue-100 hover:transition-all hover:scale-125 transition-all border-2 border-blue-200"src={assets} alt="linkedin" /></a>
                     </Fade>
                     <Fade left>
-                        <img className="mr-4 px-3 py-3 rounded-2xl hover:bg-blue-100 hover:transition-all hover:scale-125 transition-all border-2 border-blue-200"src={image} alt="twitter" />
+                    <a href="https://twitter.com/georgeolufemii?t=PM735HTdixwKGAzJU0-r9w&s=09"><img className="mr-4 px-3 py-3 rounded-2xl hover:bg-blue-100 hover:transition-all hover:scale-125 transition-all border-2 border-blue-200"src={image} alt="twitter" /></a>
                     </Fade>
                 </div>
             </div>
