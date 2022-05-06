@@ -5,7 +5,7 @@ import Project from './Project';
 function Projects() {
   return (
     <div>
-        <div className="ml-12 mt-20 md:ml-28">
+        <div className="ml-7 mt-20 md:ml-28">
             <Fade left>
                 <h1 className="font-bold text-3xl">Milestones of projects<span className="text-blue-500">.</span></h1>
             </Fade>
@@ -13,7 +13,7 @@ function Projects() {
                 <p className="mt-2 mb-20">Here are a few projects i've worked on.</p>
             </Fade>
         </div>
-        <div className="md:grid gap-7 grid-cols-3 grid-rows-3 px-4 md:px-28">
+        <div className="md:grid gap-7 grid-cols-3 grid-rows-3 px-4 md:px-18">
             <Fade left>
                 <Project 
                     name="Domain Checker"
