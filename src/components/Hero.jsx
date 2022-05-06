@@ -41,9 +41,9 @@ function Hero() {
                     </Fade>
                 </div>
             </div>
-            <div>
+            <div className="flex justify-center items-center">
                 <Fade right>
-                    <img className="h-screen object-cover" src={man} alt="my picture" />
+                    <img className="h-screen object-cover rounded-xl md:rounded-none" src={man} alt="my picture" />
                 </Fade>
             </div>
         </div>
