@@ -49,6 +49,13 @@ function Projects() {
                     href="https://artic-travel-agency.netlify.app/"
                 />
             </Fade>
+            <Fade left>
+                <Project 
+                    name="An E-Learning Platform/Website"
+                    desc="Built an E-Learning Website/Platform that is aimed to teach about Front End Web Development and other Web Programming Technologies and Skills."
+                    href="https://developedbygeorge.netlify.app/"
+                />
+            </Fade>
         </div>
     </div>
   )
