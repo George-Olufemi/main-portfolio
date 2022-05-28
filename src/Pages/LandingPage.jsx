@@ -76,65 +76,37 @@ function LandingPage() {
             <motion.span
               initial={{ opacity: 0, y: -500 }}
               animate={{ opacity: 1, y: 0}}
-<<<<<<< HEAD
-              transition={{ delay: 3.7, duration: 10, type: 'spring', stiffness: 200 }}
-=======
               transition={{ delay: 4.1, duration: 10, type: 'spring', stiffness: 200 }}
->>>>>>> b174d1909ded170e6e48095d1464cdbd9ed983d6
             >r</motion.span>
             <motion.span
               initial={{ opacity: 0, y: -500 }}
               animate={{ opacity: 1, y: 0}}
-<<<<<<< HEAD
-              transition={{ delay: 3.9, duration: 10, type: 'spring', stiffness: 200 }}
-=======
               transition={{ delay: 4.4, duration: 10, type: 'spring', stiffness: 200 }}
->>>>>>> b174d1909ded170e6e48095d1464cdbd9ed983d6
             >t</motion.span>
             <motion.span
               initial={{ opacity: 0, y: -500 }}
               animate={{ opacity: 1, y: 0}}
-<<<<<<< HEAD
-              transition={{ delay: 4, duration: 10, type: 'spring', stiffness: 200 }}
-=======
               transition={{ delay: 4.7, duration: 10, type: 'spring', stiffness: 200 }}
->>>>>>> b174d1909ded170e6e48095d1464cdbd9ed983d6
             >f</motion.span>
             <motion.span
               initial={{ opacity: 0, y: -500 }}
               animate={{ opacity: 1, y: 0}}
-<<<<<<< HEAD
-              transition={{ delay: 4.3, duration: 10, type: 'spring', stiffness: 200 }}
-=======
               transition={{ delay: 5, duration: 10, type: 'spring', stiffness: 200 }}
->>>>>>> b174d1909ded170e6e48095d1464cdbd9ed983d6
             >o</motion.span>
             <motion.span
               initial={{ opacity: 0, y: -500 }}
               animate={{ opacity: 1, y: 0}}
-<<<<<<< HEAD
-              transition={{ delay: 4.6, duration: 10, type: 'spring', stiffness: 200 }}  
-=======
               transition={{ delay: 5.4, duration: 10, type: 'spring', stiffness: 200 }}  
->>>>>>> b174d1909ded170e6e48095d1464cdbd9ed983d6
             >l</motion.span>
             <motion.span
               initial={{ opacity: 0, y: -500 }}
               animate={{ opacity: 1, y: 0}}
-<<<<<<< HEAD
-              transition={{ delay: 4.8, duration: 10, type: 'spring', stiffness: 200 }}
-=======
               transition={{ delay: 5.8, duration: 10, type: 'spring', stiffness: 200 }}
->>>>>>> b174d1909ded170e6e48095d1464cdbd9ed983d6
             >i</motion.span>
             <motion.span
               initial={{ opacity: 0, y: -500 }}
               animate={{ opacity: 1, y: 0}}
-<<<<<<< HEAD
-              transition={{ delay: 5.2, duration: 10, type: 'spring', stiffness: 200 }}
-=======
               transition={{ delay: 6, duration: 10, type: 'spring', stiffness: 200 }}
->>>>>>> b174d1909ded170e6e48095d1464cdbd9ed983d6
             >o.</motion.span></span></h1>
         </div>
         <div className="flex justify-center items-center">
@@ -143,11 +115,7 @@ function LandingPage() {
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-<<<<<<< HEAD
-              transition={{ delay: 7.3, duration: 2 }}
-=======
               transition={{ delay: 7.8, duration: 2 }}
->>>>>>> b174d1909ded170e6e48095d1464cdbd9ed983d6
               className="text-white text-center font-semibold text-2xl bg-blue-600 px-6 py-2 rounded-xl hover:scale-125 transition-all hover:bg-blue-500">Proceed</motion.button>
             </Wobble>
         </Link>
