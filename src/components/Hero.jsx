@@ -34,7 +34,7 @@ function Hero() {
                             autoStart: true,
                             loop: true,
                             delay: 150,
-                            strings: ["I am a Front End Web Developer", "Blockchain Developer", "and Mentor."]
+                            strings: ["I am a Front End Web Developer,", "Blockchain Developer,", "and Mentor."]
                         }}
                     />
                     </Fade>
