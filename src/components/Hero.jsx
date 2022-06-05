@@ -1,9 +1,10 @@
 import React from 'react';
 import assets from '../assets/linkedin.png';
 import image from '../image/twitter.png';
-import man from '../man/my picture.jpg';
+import man from '../man/me.png';
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
+import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
@@ -28,7 +29,14 @@ function Hero() {
                     </div>
                     <div className="text-3xl md:text-4xl font-bold leading-relaxed md:leading-relaxed">
                     <Fade left>
-                        <h1>A Front-end Web Developer,<br /> Blockchain Developer,<br /> and Mentor<span className="text-blue-600">.</span></h1>
+                    <Typewriter 
+                        options={{
+                            autoStart: true,
+                            loop: true,
+                            delay: 150,
+                            strings: ["I am a Front End Web Developer", "Blockchain Developer", "and Mentor."]
+                        }}
+                    />
                     </Fade>
                     </div>
                 </div>
