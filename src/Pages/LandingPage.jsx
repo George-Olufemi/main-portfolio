@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Wobble from 'react-reveal/Wobble';
-import BubblyButton from '../components/BubblyButton';
+//import BubblyButton from '../components/BubblyButton';
 
 function LandingPage() {
   return (
