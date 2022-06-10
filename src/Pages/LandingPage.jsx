@@ -112,14 +112,14 @@ function LandingPage() {
         </div>
         <div className="flex justify-center items-center">
         <Link to="/home">
-          {/* <Wobble>
+          <Wobble>
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 7.8, duration: 2 }}
               className="text-white text-center font-semibold text-2xl bg-blue-600 px-6 py-2 rounded-xl hover:scale-125 transition-all hover:bg-blue-500">Proceed</motion.button>
-            </Wobble> */}
-            <Wobble>
+            </Wobble>
+            {/* <Wobble>
               <motion.button
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -127,7 +127,7 @@ function LandingPage() {
                 className="text-white text-center font-semibold text-xl rounded-xl hover:scale-110 transition-all">
                   <BubblyButton />
                 </motion.button>
-            </Wobble>
+            </Wobble> */}
         </Link>
         </div>
     </React.Fragment>
